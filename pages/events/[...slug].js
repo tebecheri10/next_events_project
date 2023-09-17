@@ -62,10 +62,12 @@ const FilteredEvents = () => {
       </>
     );
   }
-
+  console.log("filtered eevents", filteredEvents)
   return (
     <div>
-      <EventList items={filteredEvents} />
+      <EventList 
+       items={filteredEvents}
+      />
     </div>
   );
 };
